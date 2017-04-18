@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_background">
+
+    <com.example.hlp.myui.TitlieMyUI
+        android:id="@+id/title_about_us"
+        xmlns:myui="http://schemas.android.com/apk/res/com.example.hlp.activitytest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        myui:title="关于我们">
+    </com.example.hlp.myui.TitlieMyUI>
+
+    <TextView
+        android:id="@+id/tv_sale_phone"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="销售电话：029-86966618"
+        android:background="#ffffff"/>
+    <TextView
+        android:id="@+id/tv_parts_phone"
+        android:layout_marginTop="1dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="配件销售：029-86966618"
+        android:background="#ffffff"/>
+    <TextView
+        android:id="@+id/tv_service_phone"
+        android:layout_marginTop="1dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="售后服务：029-86966666"
+        android:background="#ffffff"/>
+    <TextView
+        android:id="@+id/tv_website"
+        android:layout_marginTop="1dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="公司官网：http://www.rm.com.cn"
+        android:background="#ffffff"/>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.hlp.myui.TitlieMyUI
+        xmlns:myui="http://schemas.android.com/apk/res/com.example.hlp.activitytest"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        myui:title="文档"
+        myui:editVisibility="false">
+    </com.example.hlp.myui.TitlieMyUI>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/wxsq"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="正在开发中"
+        android:gravity="center"
+        android:textColor="#111111"
+        android:textSize="25sp"
+        android:layout_marginBottom="192dp"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
+
+</RelativeLayout>

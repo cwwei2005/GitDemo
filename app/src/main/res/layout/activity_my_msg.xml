@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_background">
+
+    <com.example.hlp.myui.TitlieMyUI
+        android:id="@+id/title_my_msg"
+        xmlns:myui="http://schemas.android.com/apk/res/com.example.hlp.activitytest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        myui:title="我的消息">
+    </com.example.hlp.myui.TitlieMyUI>
+
+    <ListView
+        android:id="@+id/lv_my_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

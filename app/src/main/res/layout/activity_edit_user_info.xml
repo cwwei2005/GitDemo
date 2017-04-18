@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DBDBDB">
+
+    <com.example.hlp.myui.TitlieMyUI
+        android:id="@+id/title_edit_info"
+        xmlns:myui="http://schemas.android.com/apk/res/com.example.hlp.activitytest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        myui:title="修改个人信息">
+    </com.example.hlp.myui.TitlieMyUI>
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#123456"/>
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:textSize="15sp"
+            android:text="用户名："
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:background="@drawable/base_edit_input"
+            android:layout_weight="3"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#123456"/>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:textSize="15sp"
+            android:text="真实姓名："
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:background="@drawable/base_edit_input"
+            android:layout_weight="3"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#123456"/>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:textSize="15sp"
+            android:text="所属单位："
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:background="@drawable/base_edit_input"
+            android:layout_weight="3"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#123456"/>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:textSize="15sp"
+            android:text="联系电话："
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:background="@drawable/base_edit_input"
+            android:layout_weight="3"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#123456"/>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:textSize="15sp"
+            android:text="邮箱："
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:background="@drawable/base_edit_input"
+            android:layout_weight="3"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#123456"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/bt_login"
+        android:onClick="login"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="保  存"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:background="@drawable/button_pressed_01"/>
+
+</LinearLayout>

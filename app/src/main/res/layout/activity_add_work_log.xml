@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.hlp.myui.TitlieMyUI
+        xmlns:myui="http://schemas.android.com/apk/res/com.example.hlp.activitytest"
+        android:id="@+id/title_add_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        myui:title="添加日志"
+        myui:edit="完成"
+        myui:editVisibility="true">
+    </com.example.hlp.myui.TitlieMyUI>
+
+    <EditText
+        android:padding="10dp"
+        android:id="@+id/et_log"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="输入日志"
+        android:gravity="top"
+        android:background="@null"/>
+
+</LinearLayout>
